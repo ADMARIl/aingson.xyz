@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #64ffda;
 }
 
 /* Custom default button */
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #4863A0;
+  background-color: #0a192f;
 }
 
 body {
@@ -42,6 +42,9 @@ body {
   max-width: 42em;
 }
 
+.flare {
+  color: #64ffda;
+}
 
 /*
  * Header
@@ -51,6 +54,8 @@ body {
 }
 
 .masthead-brand {
+  font-family: "Consolas";
+  font-weight: 100;
   margin-bottom: 0;
 }
 
