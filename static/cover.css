@@ -19,7 +19,10 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-
+@font-face {
+  font-family: "Fira-Code";
+  src: url(static/FiraCode-Regular.woff);
+}
 /*
  * Base structure
  */
@@ -44,6 +47,10 @@ body {
 
 .flare {
   color: #64ffda;
+}
+
+.desc-flare {
+  font-family: "Calibri";
 }
 
 /*
