@@ -19,10 +19,6 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-@font-face {
-  font-family: "Fira-Code";
-  src: url(static/FiraCode-Regular.woff);
-}
 /*
  * Base structure
  */
@@ -37,8 +33,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
 .cover-container {
@@ -50,12 +46,19 @@ body {
 }
 
 .desc-flare {
-  font-family: "Calibri";
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
  * Header
  */
+
+.button1 {
+  border: 2px solid #64ffda;
+  font-size: .85rem;
+  margin-left: 1rem;
+  font-family: 'Fira Code', monospace;
+}
 .masthead {
   margin-bottom: 2rem;
 }
@@ -67,16 +70,19 @@ body {
 }
 
 .nav-masthead .nav-link {
+  margin-top: 0.25rem;
   padding: .25rem 0;
-  font-weight: 700;
+  font-size: .85rem;
+  font-weight: 100;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  
+  font-family: 'Fira Code', monospace;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  color: #64ffda;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -117,12 +123,60 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+.icon-bar {
+  position: fixed;
+  top: 70%;
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
 /*
   Extra stuff
 */
 .bd-placeholder-img {
   font-size: 1.125rem;
-  text-anchor: middle;
+  text-anchor: left;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -134,3 +188,90 @@ body {
     font-size: 3.5rem;
   }
 }
+
+/* preloader hopefully */
+.preloader {
+  z-index: 9999;
+}
+
+#mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* you can change color of mask here*/
+  background: #801b1b;
+  z-index: 1099;
+  /* makes sure it stays on top */
+}
+
+/**===== nest1 =====*/
+#nest1 {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  margin: -25px 0 0 -25px;
+  border: 2px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: spin7 1.5s ease infinite;
+          animation: spin7 1.5s ease infinite;
+}
+
+#nest1:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #ffffff;
+  -webkit-animation: spin7 3s linear infinite;
+          animation: spin7 3s linear infinite;
+}
+
+#nest1:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #ffffff;
+  -webkit-animation: spin7 1.5s ease infinite;
+          animation: spin7 1.5s ease infinite;
+}
+
+@-webkit-keyframes spin7 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+@keyframes spin7 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+/** END of nest1 */
