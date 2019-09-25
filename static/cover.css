@@ -63,10 +63,15 @@ body {
   margin-bottom: 2rem;
 }
 
+.color5 {
+  color: rgba(255, 255, 255, .5);
+}
+
 .masthead-brand {
   font-family: "Consolas";
   font-weight: 100;
   margin-bottom: 0;
+
 }
 
 .nav-masthead .nav-link {
