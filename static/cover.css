@@ -57,13 +57,6 @@ body {
 /*
  * Header
  */
-.inline1 {
-  display: inline;
-}
-
-.dropdown-backdrop {
-  position: static;
-  }
 
 .button1 {
   border: 2px solid #64ffda;
