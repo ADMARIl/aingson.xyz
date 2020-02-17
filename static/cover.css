@@ -57,6 +57,9 @@ body {
 /*
  * Header
  */
+.inline1 {
+  display: inline;
+}
 
 .button1 {
   border: 2px solid #64ffda;
@@ -64,6 +67,18 @@ body {
   margin-left: 1rem;
   font-family: 'Fira Code', monospace;
 }
+
+.button1:hover, .button1:focus {
+  color: #e6f1ff;
+}
+
+.navbar .navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar .navbar-collapse.collapse.in {
+  display: block !important;
+}
+
 .masthead {
   margin-bottom: 2rem;
 }
