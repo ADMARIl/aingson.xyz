@@ -67,6 +67,7 @@ body {
 
 .button1:hover, .button1:focus {
   color: #e6f1ff;
+  border: 2px solid #e6f1ff;
 }
 
 .navbar .navbar-collapse.collapse {
