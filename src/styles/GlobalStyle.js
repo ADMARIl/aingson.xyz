@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.navy};
+    background-color: ${colors.cream};
     color: ${colors.slate};
     line-height: 1.3;
     font-family: ${fonts.Calibre};
@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-weight: 600;
-    color: ${colors.lightestSlate};
+    color: ${colors.dark};
     margin: 0 0 10px 0;
   }
 

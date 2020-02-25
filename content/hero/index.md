@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Andrew Ingson'
-subtitle: 'A human person.'
+subtitle: 'A real human person.'
 contactText: 'Get In Touch'
 ---
 

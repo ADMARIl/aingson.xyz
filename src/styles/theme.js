@@ -17,13 +17,16 @@ const theme = {
     pink: '#FF647F',
     yellow: '#FFC464',
     orange: '#FF9E64',
-    green: '#64ffda',
+    green: '#B8E8FF',
     blue: '#71AFFF',
     darkBlue: '#1D7FFC',
     highlight: 'rgba(41, 61, 90, 0.99)',
     transGreen: 'rgba(100, 255, 218, 0.07)',
     transNavy: 'rgba(10, 25, 47, 0.7)',
     shadowNavy: 'rgba(2, 12, 27, 0.7)',
+
+    cream: '#F2EFE6',
+    water: '#B8E8FF',
   },
 
   fonts: {

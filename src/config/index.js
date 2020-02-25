@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Andrew Ingson',
+  siteTitle: 'Andrew Ingson | aingson.xyz',
   siteDescription:
     'Andrew Ingson is an undergraduate student at the University of Maryland, Baltimore County, where he is majoring in Computer Science. Right now, he is looking for a technical internship in the field of Software Engineering.',
   siteKeywords:
@@ -22,18 +22,7 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/andrew-ingson-194ab2150/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://www.aingson.xyz',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.aingson.xyz',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://www.aingson.xyz',
-    },
+
   ],
 
   navLinks: [
@@ -42,28 +31,20 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
-    },
-    {
-      name: 'Contact',
-      url: '/#contact',
     },
   ],
 
   navHeight: 100,
   greenColor: '#64ffda',
-  navyColor: '#0a192f',
-  darkNavyColor: '#020c1b',
+  navyColor: '#f2efe6',
+  darkNavyColor: '#000000',
 
-  srConfig: (delay = 200) => ({
+  srConfig: (delay = 20) => ({
     origin: 'bottom',
     distance: '20px',
-    duration: 500,
+    duration: 5,
     delay,
     rotate: { x: 0, y: 0, z: 0 },
     opacity: 0,

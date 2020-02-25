@@ -13,7 +13,6 @@ const IndexPage = ({ location, data }) => (
   <Layout location={location}>
     <StyledMainContainer className="fillHeight">
       <Hero data={data.hero.edges} />
-      
     </StyledMainContainer>
   </Layout>
 );

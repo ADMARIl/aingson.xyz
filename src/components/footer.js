@@ -123,25 +123,8 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div><a href="https://aingson.xyz/">aingson.xyz</a> is made by <a href="mailto:aings1@umbc.edu">Andrew</a> with <a href="https://getbootstrap.com/">Bootstrap</a>. See it on <a href="https://github.com/ADMARIl/aingson.xyz">github</a>. </div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <IconStar />
-                <span>{githubInfo.stars}</span>
-              </span>
-              <span>
-                <IconFork />
-                <span>{githubInfo.forks}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
-        </StyledGitHubLink>
+      <div><a href="https://aingson.xyz/">aingson.xyz</a> is made by <a href="mailto:aings1@umbc.edu">Andrew</a> with <a href="https://www.gatsbyjs.org/">Gatsby</a>. See it on <a href="https://github.com/ADMARIl/aingson.xyz">github</a>. </div>
+        
       </StyledMetadata>
     </StyledContainer>
   );

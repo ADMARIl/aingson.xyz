@@ -94,7 +94,7 @@ const mixins = {
 
   bigButton: css`
     color: ${colors.green};
-    background-color: transparent;
+    background-color: ${colors.darkGrey};
     border: 1px solid ${colors.green};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
@@ -102,6 +102,7 @@ const mixins = {
     font-family: ${fonts.SFMono};
     line-height: 1;
     text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
     transition: ${theme.transition};
     &:hover,
