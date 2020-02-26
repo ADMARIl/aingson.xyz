@@ -41,6 +41,8 @@ module.exports = {
   navyColor: '#f2efe6',
   darkNavyColor: '#000000',
 
+  loaderEnable: 0,
+
   srConfig: (delay = 20) => ({
     origin: 'bottom',
     distance: '20px',
