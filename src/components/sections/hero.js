@@ -1,12 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
+import Img from 'gatsby-image';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email } from '@config';
+import { email, github } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
+  ${mixins.flexCenter};
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  ${media.tablet`padding-top: 150px;`};
+  div {
+    width: 100%;
+  }
+`;
+const helloContainerRed = styled(Section)`
+  background-color: ${colors.helloRed};
+  margin: 0 0 20px 3px;
+`;
+const helloContainerwhite = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
@@ -55,6 +70,70 @@ const StyledEmailLink = styled.a`
   ${mixins.bigButton};
   margin-top: 50px;
 `;
+const StyledPic = styled.div`
+  position: relative;
+  width: 40%;
+  max-width: 300px;
+  margin-left: 60px;
+  ${media.tablet`margin: 60px auto 0;`};
+  ${media.phablet`width: 70%;`};
+  a {
+    &:focus {
+      outline: 0;
+    }
+  }
+`;
+const StyledAvatar = styled(Img)`
+  position: relative;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(1);
+  border-radius: ${theme.borderRadius};
+  transition: ${theme.transition};
+`;
+const StyledAvatarLink = styled.a`
+  ${mixins.boxShadow};
+  width: 100%;
+  position: relative;
+  border-radius: ${theme.borderRadius};
+  background-color: ${colors.green};
+  margin-left: -20px;
+  &:hover,
+  &:focus {
+    background: transparent;
+    &:after {
+      top: 15px;
+      left: 15px;
+    }
+    ${StyledAvatar} {
+      filter: none;
+      mix-blend-mode: normal;
+    }
+  }
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: ${theme.borderRadius};
+    transition: ${theme.transition};
+  }
+  &:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: ${colors.navy};
+    mix-blend-mode: screen;
+  }
+  &:after {
+    border: 2px solid ${colors.green};
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+  }
+`;
 
 const Hero = ({ data }) => {
   const [isMounted, setIsMounted] = useState(false);
@@ -67,7 +146,14 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+    <helloContainerRed><StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline></helloContainerRed>
+  );
+  const pic = () => (
+    <StyledPic style={{ transitionDelay: '100ms' }}>
+          <StyledAvatarLink href={github}>
+            <StyledAvatar fluid={frontmatter.avatar.childImageSharp.fluid} alt="Avatar" />
+          </StyledAvatarLink>
+        </StyledPic>
   );
   const two = () => (
     <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>

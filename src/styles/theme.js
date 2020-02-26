@@ -27,6 +27,7 @@ const theme = {
 
     cream: '#F2EFE6',
     water: '#B8E8FF',
+    helloRed: '#ef3d33',
   },
 
   fonts: {
