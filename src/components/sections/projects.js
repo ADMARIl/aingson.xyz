@@ -147,7 +147,7 @@ const Projects = ({ data }) => {
     <StyledContainer id="projects">
       <StyledTitle ref={revealTitle}>Projects</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
-        view the archive
+        view the list
       </StyledArchiveLink>
 
       <StyledGrid>
