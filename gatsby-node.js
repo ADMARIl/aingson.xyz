@@ -6,12 +6,12 @@
 
 const path = require('path');
 const _ = require('lodash');
-
+/*
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
-
+  
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
@@ -65,7 +65,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 };
-
+*/
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
