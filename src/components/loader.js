@@ -43,7 +43,7 @@ const Loader = ({ finishLoading }) => {
     const loader = anime.timeline({
       complete: () => finishLoading(),
     });
-    if (loaderEnable == 1) {
+    if (loaderEnable === 1) {
       loader
         .add({
           targets: '#logo path',

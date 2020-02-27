@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -147,13 +147,6 @@ const Hero = ({ data }) => {
 
   const one = () => (
     <helloContainerRed><StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline></helloContainerRed>
-  );
-  const pic = () => (
-    <StyledPic style={{ transitionDelay: '100ms' }}>
-          <StyledAvatarLink href={github}>
-            <StyledAvatar fluid={frontmatter.avatar.childImageSharp.fluid} alt="Avatar" />
-          </StyledAvatarLink>
-        </StyledPic>
   );
   const two = () => (
     <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>

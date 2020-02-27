@@ -15,7 +15,7 @@ import appleIcon152x152 from '@images/favicons/apple-touch-icon-152x152.png';
 import appleIcon180x180 from '@images/favicons/apple-touch-icon-180x180.png';
 import androidIcon192x192 from '@images/favicons/android-chrome-192x192.png';
 import favicon32x32 from '@images/favicons/favicon-32x32.png';
-import favicon96x96 from '@images/favicons/favicon-32x32.png';
+import favicon96x96 from '@images/favicons/favicon-96x96.png';
 import favicon16x16 from '@images/favicons/favicon-16x16.png';
 import msIcon144x144 from '@images/favicons/mstile-150x150.png';
 
