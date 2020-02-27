@@ -2,13 +2,19 @@
 title: 'About Me'
 avatar: './AndrewHeadshot2.jpg'
 skills:
-  - JavaScript (ES6+)
+  - Python
+  - C 
+  - C++ 
+  - Java
   - HTML & (S)CSS
   - React
   - Node.js
   - Gatsby
+  - AnjularJS
+  - Rails 
+
 ---
 
-Hello! I'm Andrew, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis metus in sapien luctus hendrerit. Mauris dictum lectus urna, sit amet ultrices mauris congue nec. Mauris tempus lectus diam, id fermentum turpis laoreet sit amet. Duis in porttitor dui. In feugiat arcu vel libero rhoncus, non iaculis ante semper. Aenean at facilisis urna. Nullam semper elit urna, ut facilisis neque posuere ut. Fusce dapibus eleifend ligula. Nulla volutpat ante at metus volutpat dapibus. Nullam commodo tempus lectus, in accumsan elit ultricies eget. Nam elementum malesuada tempus. Ut in magna tellus. Duis in est at lorem interdum laoreet. Duis tincidunt ultricies.
+Hello! I'm Andrew, a software engineer in Baltimore, Marlyand. Right now, I'm on track to graduate with a BS in Computer Science from UMBC in May 2021
 
 Here are a few technologies I've been working with recently:

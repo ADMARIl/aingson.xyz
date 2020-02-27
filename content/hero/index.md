@@ -2,7 +2,7 @@
 title: 'Hi, my name is'
 name: 'Andrew Ingson'
 subtitle: 'A real human person.'
-contactText: 'Make First Contact'
+contactText: 'Say Hello!'
 avatar: './AndrewHeadshot2.jpg'
 ---
 

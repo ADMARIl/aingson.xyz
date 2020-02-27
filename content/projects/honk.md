@@ -1,6 +1,6 @@
 ---
-date: '2017-03-01'
-title: 'HONK App'
+date: '2020-02-07'
+title: 'HONK!'
 github: 'https://github.com/ADMARIl/ADMARIl.github.io'
 external: 'https://admaril.github.io/'
 tech:
@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-Web app that allows people to remotley trigger a car horn
+Web app that allows people to remotely trigger a car horn in a variety of sequences

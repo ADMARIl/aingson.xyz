@@ -1,12 +1,9 @@
 ---
 date: '2018-10-01'
 title: 'Sally'
-github: 'https://github.com/ADMARIl/ADMARIl.github.io'
-external: 'https://admaril.github.io/'
+github: 'https://github.com/ADMARIl/Sally'
 tech:
   - C++
-  - Particle API
-  - JS
 showInProjects: true
 ---
 
