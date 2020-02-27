@@ -70,13 +70,6 @@ const StyledEmailLink = styled.a`
   ${mixins.bigButton};
   margin-top: 50px;
 `;
-const StyledAvatar = styled(Img)`
-  position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
-  border-radius: ${theme.borderRadius};
-  transition: ${theme.transition};
-`;
 
 const Hero = ({ data }) => {
   const [isMounted, setIsMounted] = useState(false);
