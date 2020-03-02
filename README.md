@@ -4,23 +4,37 @@ This is the source code for my personl website, [aingson.xyz](https://aingson.xy
 
 ## Installation
 
-Use the node.js package manager [npm](https://nodejs.org/en/) to install.
+You'll need [npm](https://nodejs.org/en/) to get started.
 
-```bash
-npm install
-```
+1. Install yarn if you don't already have it
+
+   ```bash
+   npm install -g yarn
+   ```
+
+2. Install dependencies
+
+   ```bash
+   yarn
+   ```
+
+3. Run a development build
+
+   ```bash
+   npm run develop
+   ```
 
 ## Building and Running
 
 1. Generate a full static production build
 
-   ```sh
+   ```bash
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site as it will appear once deployed
 
-   ```sh
+   ```bash
    npm run serve
    ```
 
