@@ -16,7 +16,7 @@ const StyledContainer = styled.header`
   position: fixed;
   top: 0;
   padding: 0px 50px;
-  background-color: ${colors.navy};
+  background-color: ${colors.mapDarkBlue};
   transition: ${theme.transition};
   z-index: 11;
   filter: none !important;

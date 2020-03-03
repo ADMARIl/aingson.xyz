@@ -18,17 +18,15 @@ const StyledContainer = styled(Section)`
 `;
 const HelloContainerRed = styled(Section)`
   background-color: ${colors.helloRed};
-  margin: 0 0 20px 3px;
+  color: ${colors.white};
+  ${mixins.flexLeft};
+  margin: 0px 0px 20px 0px;
+  padding: 20px 250px 10px 10px;
 `;
 const HelloContainerwhite = styled(Section)`
-  ${mixins.flexCenter};
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 100vh;
-  ${media.tablet`padding-top: 150px;`};
-  div {
-    width: 100%;
-  }
+  background-color: ${colors.white};
+  margin: 0px 0px 20px 0px;
+  padding: 20px 250px 10px 10px;
 `;
 const StyledOverline = styled.h1`
   color: ${colors.dark};
@@ -58,7 +56,7 @@ const StyledSubtitle = styled.h3`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledDescription = styled.div`
-  margin-top: 25px;
+  margin-top: 5px;
   width: 50%;
   max-width: 500px;
   a {
@@ -81,10 +79,10 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+    <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed>{frontmatter.title}</HelloContainerRed></StyledOverline>
   );
   const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
+    <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}.</HelloContainerwhite></StyledTitle>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>

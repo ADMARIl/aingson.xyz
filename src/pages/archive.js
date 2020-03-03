@@ -13,6 +13,7 @@ const { colors, fonts, fontSizes } = theme;
 const StyledMainContainer = styled(Main)``;
 const StyledTableContainer = styled.div`
   margin: 100px -20px;
+  background-color: #339ddf;
   ${media.tablet`
     margin: 100px -10px;
   `};
