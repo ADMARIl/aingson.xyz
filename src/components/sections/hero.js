@@ -92,7 +92,7 @@ const Hero = ({ data }) => {
     <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed>{frontmatter.title}</HelloContainerRed></StyledOverline>
   );
   const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}.</HelloContainerwhite></StyledTitle>
+    <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}</HelloContainerwhite></StyledTitle>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
