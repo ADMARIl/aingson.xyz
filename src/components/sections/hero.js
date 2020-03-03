@@ -23,19 +23,19 @@ const HelloContainerRed = styled(Section)`
   ${media.tablet`width: 410px;`};
   ${media.phablet`width: 375px;`};
   ${media.phone`width: 320px;`};
-  
-  margin: 0px 0px 20px -7px;
+  margin: 0px 0px 20px -9px;
   padding: 20px 50px 20px 20px !important;
   margin-bottom: 0px;
 `;
 const HelloContainerwhite = styled(Section)`
   background-color: ${colors.white};
-  margin: 0px 0px 10px -7px;
-  padding: 20px 50px 10px 10px !important;
+  margin: 0px 0px 10px -9px;
+  padding: 20px 50px 5px 10px !important;
   ${media.desktop`width: 500px;`};
   ${media.tablet`width: 410px;`};
   ${media.phablet`width: 375px;`};
   ${media.phone`width: 320px;`};
+  border-style: solid;
 `;
 const StyledOverline = styled.h1`
   color: ${colors.dark};

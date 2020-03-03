@@ -42,7 +42,7 @@ const Skill = styled.li`
     content: '▹';
     position: absolute;
     left: 0;
-    color: ${colors.green};
+    color: ${colors.mapBlue};
     font-size: ${fontSizes.sm};
     line-height: 12px;
   }
