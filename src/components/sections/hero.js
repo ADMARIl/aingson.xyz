@@ -20,15 +20,19 @@ const HelloContainerRed = styled(Section)`
   background-color: ${colors.helloRed};
   color: ${colors.white};
   max-width: 500px;
+  width: 320px;
   margin: 0px 0px 20px 0px;
-  padding: 20px 250px 10px 10px;
+  ${media.desktop`width: 500px;`};
+  padding: 20px 50px 10px 10px !important;
   margin-bottom: 0px;
 `;
 const HelloContainerwhite = styled(Section)`
   background-color: ${colors.white};
-  margin: 0px 0px 20px 0px;
-  padding: 20px 50px 10px 10px;
+  margin: 0px 0px 10px 0px;
+  padding: 20px 50px 00px 10px !important;
   max-width: 500px;
+  width: 320px;
+  ${media.desktop`width: 500px;`};
 `;
 const StyledOverline = styled.h1`
   color: ${colors.dark};
@@ -81,9 +85,8 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <div>
+
     <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed>{frontmatter.title}</HelloContainerRed></StyledOverline>
-    </div>
   );
   const two = () => (
     <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}.</HelloContainerwhite></StyledTitle>
