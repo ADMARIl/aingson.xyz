@@ -19,22 +19,23 @@ const StyledContainer = styled(Section)`
 const HelloContainerRed = styled(Section)`
   background-color: ${colors.helloRed};
   color: ${colors.white};
+  ${media.desktop`width: 500px;`};
   ${media.tablet`width: 410px;`};
   ${media.phablet`width: 375px;`};
   ${media.phone`width: 320px;`};
-  ${media.desktop`width: 500px;`};
+  
   margin: 0px 0px 20px -7px;
-  padding: 20px 50px 10px 10px !important;
+  padding: 20px 50px 20px 20px !important;
   margin-bottom: 0px;
 `;
 const HelloContainerwhite = styled(Section)`
   background-color: ${colors.white};
   margin: 0px 0px 10px -7px;
-  padding: 20px 50px 00px 10px !important;
+  padding: 20px 50px 10px 10px !important;
+  ${media.desktop`width: 500px;`};
   ${media.tablet`width: 410px;`};
   ${media.phablet`width: 375px;`};
   ${media.phone`width: 320px;`};
-  ${media.desktop`width: 500px;`};
 `;
 const StyledOverline = styled.h1`
   color: ${colors.dark};
