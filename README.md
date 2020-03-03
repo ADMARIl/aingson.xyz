@@ -1,6 +1,6 @@
 # aingson.xyz
 
-This is the source code for my personl website, [aingson.xyz](https://aingson.xyz).
+This is the source code for my personal website, [aingson.xyz](https://aingson.xyz).
 
 ## Installation
 
@@ -15,13 +15,13 @@ You'll need [npm](https://nodejs.org/en/) to get started.
 2. Install dependencies
 
    ```bash
-   yarn
+   yarn install
    ```
 
 3. Run a development build
 
    ```bash
-   npm run develop
+   yarn run develop
    ```
 
 ## Building and Running
@@ -29,13 +29,13 @@ You'll need [npm](https://nodejs.org/en/) to get started.
 1. Generate a full static production build
 
    ```bash
-   npm run build
+   yarn run build
    ```
 
 2. Preview the site as it will appear once deployed
 
    ```bash
-   npm run serve
+   yarn run serve
    ```
 
 

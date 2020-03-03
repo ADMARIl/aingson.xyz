@@ -123,6 +123,7 @@ const StyledTechList = styled.ul`
   }
 `;
 const StyledMoreButton = styled(Button)`
+  ${mixins.bigButton};
   margin: 100px auto 0;
 `;
 
@@ -213,6 +214,9 @@ const Projects = ({ data }) => {
             })}
         </TransitionGroup>
       </StyledGrid>
+      <StyledMoreButton onClick={() => setShowMore(!showMore)}>
+        Show {showMore ? 'Less' : 'More'}
+      </StyledMoreButton>
     </StyledContainer>
   );
 };
