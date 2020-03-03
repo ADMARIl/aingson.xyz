@@ -4,7 +4,7 @@ title: 'Lab Intern'
 company: 'UMBC Chemistry Department'
 location: 'Baltimore, MD'
 range: 'September 2018 - Ongoing'
-url: 'cullumlab.umbc.edu'
+url: 'https://cullumlab.umbc.edu'
 ---
 
 - Design models/parts to be rapidly prototyped

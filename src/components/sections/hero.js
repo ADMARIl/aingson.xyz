@@ -18,21 +18,28 @@ const StyledContainer = styled(Section)`
 `;
 const HelloContainerRed = styled(Section)`
   background-color: ${colors.helloRed};
-  margin: 0 0 20px 3px;
+  color: ${colors.white};
+  ${media.desktop`width: 500px;`};
+  ${media.tablet`width: 410px;`};
+  ${media.phablet`width: 375px;`};
+  ${media.phone`width: 320px;`};
+  margin: 0px 0px 20px -9px;
+  padding: 20px 50px 20px 20px !important;
+  margin-bottom: 0px;
 `;
 const HelloContainerwhite = styled(Section)`
-  ${mixins.flexCenter};
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 100vh;
-  ${media.tablet`padding-top: 150px;`};
-  div {
-    width: 100%;
-  }
+  background-color: ${colors.white};
+  margin: 0px 0px 10px -9px;
+  padding: 20px 50px 5px 10px !important;
+  ${media.desktop`width: 500px;`};
+  ${media.tablet`width: 410px;`};
+  ${media.phablet`width: 375px;`};
+  ${media.phone`width: 320px;`};
+  border-style: solid;
 `;
 const StyledOverline = styled.h1`
   color: ${colors.dark};
-  margin: 0 0 20px 3px;
+  margin: 0 0 0px 0px;
   font-size: ${fontSizes.md};
   font-family: ${fonts.SFMono};
   font-weight: normal;
@@ -58,7 +65,7 @@ const StyledSubtitle = styled.h3`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledDescription = styled.div`
-  margin-top: 25px;
+  margin-top: 5px;
   width: 50%;
   max-width: 500px;
   a {
@@ -81,10 +88,11 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+
+    <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed>{frontmatter.title}</HelloContainerRed></StyledOverline>
   );
   const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
+    <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}</HelloContainerwhite></StyledTitle>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>

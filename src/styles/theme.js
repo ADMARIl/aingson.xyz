@@ -29,6 +29,15 @@ const theme = {
     cream: '#F2EFE6',
     water: '#B8E8FF',
     helloRed: '#ef3d33',
+    mapRed: '#ff0005',
+    mapBlue: '#339ddf',
+    mapGreen: '#007d40',
+    mapYellow: '#f7bd29',
+    mapPurple: '#a94387',
+    mapDarkBlue: '#3168b1',
+    sideBarBlack: '#020c1bb3',
+    mapBlack: '#000',
+    lightSlate2: '#eaebec',
   },
 
   fonts: {
