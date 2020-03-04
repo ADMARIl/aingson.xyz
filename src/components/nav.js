@@ -3,12 +3,13 @@ import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import { throttle } from '@utils';
 import { navLinks, navHeight } from '@config';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
-import { theme, mixins, media } from '@styles';
+import { theme, mixins, media, GlobalStyle } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.header`
@@ -288,6 +289,27 @@ class Nav extends Component {
                   ))}
               </TransitionGroup>
             </StyledList>
+
+            <TransitionGroup component={null}>
+              {isMounted && (
+                <CSSTransition classNames={fadeDownClass} timeout={timeout}>
+                  <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
+                  <ThemeToggler>
+                    {({ theme, toggleTheme }) => (
+                      <label>
+                        <input
+                          type="checkbox"
+                          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                          checked={theme === 'dark'}
+                        />{' '}
+                        <StyledListLink>Dark mode</StyledListLink>
+                      </label>
+                    )}
+                  </ThemeToggler>
+                  </div>
+                </CSSTransition>
+              )}
+            </TransitionGroup>
 
             <TransitionGroup component={null}>
               {isMounted && (

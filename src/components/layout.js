@@ -94,6 +94,15 @@ const Layout = ({ children, location }) => {
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <StyledContent>
+              <div
+              style={{
+                backgroundColor: 'var(--bg)',
+                color: 'var(--textNormal)',
+                transition: 'color 0.2s ease-out, background 0.2s ease-out',
+              }}
+            >
+              ...
+            
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
               <Email isHome={isHome} />
@@ -101,6 +110,7 @@ const Layout = ({ children, location }) => {
               <div id="content">
                 {children}
                 <Footer />
+              </div>
               </div>
             </StyledContent>
           )}
