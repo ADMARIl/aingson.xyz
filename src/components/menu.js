@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { navLinks } from '@config';
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -107,6 +108,19 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
+          <ThemeToggler>
+                    {({ theme, toggleTheme }) => (
+                      <label>
+                        <input
+                          type="checkbox"
+                          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                          checked={theme === 'dark'}
+                        />{' '}
+                        Dark mode
+                        <span class="slider round"></span>
+                      </label>
+                    )}
+                  </ThemeToggler>
           <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>

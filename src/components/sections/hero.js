@@ -89,7 +89,7 @@ const Hero = ({ data }) => {
 
   const one = () => (
 
-    <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed>{frontmatter.title}</HelloContainerRed></StyledOverline>
+    <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed><i>{frontmatter.title}</i>{frontmatter.banner}</HelloContainerRed></StyledOverline>
   );
   const two = () => (
     <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}</HelloContainerwhite></StyledTitle>

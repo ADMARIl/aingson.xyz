@@ -95,13 +95,12 @@ const Layout = ({ children, location }) => {
           ) : (
             <StyledContent>
               <div
-              style={{
-                backgroundColor: 'var(--bg)',
-                color: 'var(--textNormal)',
-                transition: 'color 0.2s ease-out, background 0.2s ease-out',
-              }}
-            >
-              ...
+                style={{
+                  backgroundColor: 'var(--bg)',
+                  color: 'var(--textNormal)',
+                  transition: 'color 0.2s ease-out, background 0.2s ease-out',
+                }}
+              >
             
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
