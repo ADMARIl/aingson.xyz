@@ -109,23 +109,6 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ThemeToggler>
-            {({ theme, toggleTheme }) => (
-              <label>
-                <input
-                  className={styles.toginput}
-                  type="checkbox"
-                  onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                  checked={theme === 'dark'}
-                />
-                {theme === 'dark' ? (
-                  <div className={styles.on}></div>
-                ) : (
-                  <div className={styles.off}></div>
-                )}
-              </label>
-            )}
-          </ThemeToggler>
           <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>

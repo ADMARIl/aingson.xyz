@@ -34,6 +34,9 @@ const StyledContainer = styled.header`
   ${media.desktop`padding: 0 40px;`};
   ${media.tablet`padding: 0 25px;`};
 `;
+const ToggleContainer = styled.div`
+  padding: 0px 0px 0px 10px;
+`;
 const StyledNav = styled.nav`
   ${mixins.flexBetween};
   position: relative;
@@ -294,33 +297,6 @@ class Nav extends Component {
             <TransitionGroup component={null}>
               {isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                  <div style={{ transitionDelay: `${isHome ? navLinks.length * 1 : 0}ms` }}>
-                    <ThemeToggler>
-                      {({ theme, toggleTheme }) => (
-                        <label>
-                          <input
-                            className={styles.toginput}
-                            type="checkbox"
-                            onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                            checked={theme === 'dark'}
-                            hidden
-                          />
-                          {theme === 'dark' ? (
-                            <div className={styles.off}></div>
-                          ) : (
-                            <div className={styles.on}></div>
-                          )}
-                        </label>
-                      )}
-                    </ThemeToggler>
-                  </div>
-                </CSSTransition>
-              )}
-            </TransitionGroup>
-
-            <TransitionGroup component={null}>
-              {isMounted && (
-                <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledResumeButton
                       href="/resume.pdf"
@@ -334,7 +310,29 @@ class Nav extends Component {
             </TransitionGroup>
           </StyledLink>
         </StyledNav>
-
+        
+        <ToggleContainer>
+          <CSSTransition classNames={fadeClass} timeout={timeout}>
+            <ThemeToggler>
+              {({ theme, toggleTheme }) => (
+                <label>
+                  <input
+                    className={styles.toginput}
+                    type="checkbox"
+                    onChange={e => toggleTheme(e.target.checked ? 'light' : 'dark')}
+                    checked={theme === 'light'}
+                    hidden
+                  />
+                  {theme === 'light' ? (
+                    <div className={styles.on}></div>
+                  ) : (
+                    <div className={styles.off}></div>
+                  )}
+                </label>
+              )}
+            </ThemeToggler>
+          </CSSTransition>
+        </ToggleContainer>
         <Menu menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
       </StyledContainer>
     );

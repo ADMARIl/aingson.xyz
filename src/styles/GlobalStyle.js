@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
   body.dark {
     -webkit-font-smoothing: antialiased;
   
-    --bg: ${colors.mapPurple};
+    --bg: ${colors.mediumGrey};
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     --textLink: yellow;
@@ -79,6 +79,15 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 600;
     color: ${colors.dark};
     margin: 0 0 10px 0;
+  }
+
+  h1.dark,
+  h2.dark,
+  h3.dark,
+  h4.dark,
+  h5.dark,
+  h6.dark {
+    color: ${colors.white};
   }
 
   h1 {
