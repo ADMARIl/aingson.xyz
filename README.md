@@ -18,6 +18,8 @@
   </div>
 
 ## Installation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_shield)
+
 
 You'll need [npm](https://nodejs.org/en/) to get started.
 
@@ -60,3 +62,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_large)
