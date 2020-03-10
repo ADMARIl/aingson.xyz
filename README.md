@@ -15,11 +15,11 @@
    <a href="https://zeit.co/import/project?template=https://github.com/ADMARIl/aingson.xyz/tree/master" target="_blank">
     <img src="https://zeit.co/button" alt="Zeit Deploy" />
   </a>
+  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_shield" target="_blank">
+    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=shield" alt="FOSSA status" />
   </div>
 
 ## Installation
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_shield)
-
 
 You'll need [npm](https://nodejs.org/en/) to get started.
 
