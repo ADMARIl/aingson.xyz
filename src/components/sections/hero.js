@@ -88,11 +88,17 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-
-    <StyledOverline style={{ transitionDelay: '100ms' }}><HelloContainerRed><i>{frontmatter.title}</i>{frontmatter.banner}</HelloContainerRed></StyledOverline>
+    <StyledOverline style={{ transitionDelay: '100ms' }}>
+      <HelloContainerRed>
+        <i>{frontmatter.title}</i>
+        {frontmatter.banner}
+      </HelloContainerRed>
+    </StyledOverline>
   );
   const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}><HelloContainerwhite>{frontmatter.name}</HelloContainerwhite></StyledTitle>
+    <StyledTitle style={{ transitionDelay: '200ms' }}>
+      <HelloContainerwhite>{frontmatter.name}</HelloContainerwhite>
+    </StyledTitle>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>

@@ -1,5 +1,5 @@
-import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import React from 'react';
+import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 
 class MyComponent extends React.Component {
   render() {
@@ -16,6 +16,6 @@ class MyComponent extends React.Component {
           </label>
         )}
       </ThemeToggler>
-    )
+    );
   }
 }

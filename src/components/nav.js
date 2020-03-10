@@ -9,6 +9,7 @@ import { navLinks, navHeight } from '@config';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
+import styles from './toggle.module.css';
 import { theme, mixins, media, GlobalStyle } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
@@ -57,7 +58,7 @@ const StyledLogo = styled.div`
     }
     svg {
       fill: none;
-      # transition: ${theme.transition};
+      #transition: ${theme.transition};
       user-select: none;
     }
   }
@@ -293,19 +294,25 @@ class Nav extends Component {
             <TransitionGroup component={null}>
               {isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                  <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <ThemeToggler>
-                    {({ theme, toggleTheme }) => (
-                      <label>
-                        <input
-                          type="checkbox"
-                          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                          checked={theme === 'dark'}
-                        />{' '}
-                        <StyledListLink>Dark mode</StyledListLink>
-                      </label>
-                    )}
-                  </ThemeToggler>
+                  <div style={{ transitionDelay: `${isHome ? navLinks.length * 1 : 0}ms` }}>
+                    <ThemeToggler>
+                      {({ theme, toggleTheme }) => (
+                        <label>
+                          <input
+                            className={styles.toginput}
+                            type="checkbox"
+                            onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                            checked={theme === 'dark'}
+                            hidden
+                          />
+                          {theme === 'dark' ? (
+                            <div className={styles.off}></div>
+                          ) : (
+                            <div className={styles.on}></div>
+                          )}
+                        </label>
+                      )}
+                    </ThemeToggler>
                   </div>
                 </CSSTransition>
               )}

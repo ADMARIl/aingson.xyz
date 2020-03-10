@@ -99,17 +99,15 @@ const Layout = ({ children, location }) => {
                   backgroundColor: 'var(--bg)',
                   color: 'var(--textNormal)',
                   transition: 'color 0.2s ease-out, background 0.2s ease-out',
-                }}
-              >
-            
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
+                }}>
+                <Nav isHome={isHome} />
+                <Social isHome={isHome} />
+                <Email isHome={isHome} />
 
-              <div id="content">
-                {children}
-                <Footer />
-              </div>
+                <div id="content">
+                  {children}
+                  <Footer />
+                </div>
               </div>
             </StyledContent>
           )}
