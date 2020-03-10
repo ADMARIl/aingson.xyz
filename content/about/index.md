@@ -15,4 +15,6 @@ skills:
 - AnjularJS
 - Rails
 
+---
+
 Here are a few technologies I've been working with recently:
