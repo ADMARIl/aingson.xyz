@@ -5,7 +5,6 @@
  */
 
 const path = require('path');
-const _ = require('lodash');
 
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {

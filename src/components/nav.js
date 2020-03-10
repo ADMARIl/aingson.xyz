@@ -10,7 +10,7 @@ import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
 import styles from './toggle.module.css';
-import { theme, mixins, media, GlobalStyle } from '@styles';
+import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.header`
@@ -317,7 +317,6 @@ class Nav extends Component {
               {({ theme, toggleTheme }) => (
                 <label>
                   <input
-                    className={styles.toginput}
                     type="checkbox"
                     onChange={e => toggleTheme(e.target.checked ? 'light' : 'dark')}
                     checked={theme === 'light'}

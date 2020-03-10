@@ -1,12 +1,3 @@
-toginput {
-  display: none;
-}
-tog.div {
-  width: 1.375rem;
-  height: 1.375rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
 .on {
   width: 1.375rem;
   height: 1.375rem;

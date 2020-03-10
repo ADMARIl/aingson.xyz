@@ -2,10 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { navLinks } from '@config';
-import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
-import styles from './toggle.module.css';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.div`

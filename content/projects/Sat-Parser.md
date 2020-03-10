@@ -8,4 +8,4 @@ tech:
 showInProjects: true
 ---
 
-A C# project to parse the data from a ~~json~~ csv file containg data on many celestial bodies currently orbiting the earth.
+A C# project to parse the data from a ~~json~~ csv file containing data on many celestial bodies currently orbiting the earth.
