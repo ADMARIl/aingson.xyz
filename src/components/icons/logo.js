@@ -14,7 +14,6 @@ const IconLogo = () => (
           z"
           fill="#64FFDA"
         />
-      
       </g>
     </g>
   </svg>

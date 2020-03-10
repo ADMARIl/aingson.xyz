@@ -45,7 +45,7 @@ const NotFoundPage = ({ location }) => {
           <CSSTransition timeout={500} classNames="fade">
             <StyledMainContainer className="fillHeight">
               <StyledTitle>404</StyledTitle>
-              <StyledSubtitle>Page Not Found</StyledSubtitle>
+              <StyledSubtitle>This is not the page you're looking for</StyledSubtitle>
               <StyledHomeButton to="/">Go Home</StyledHomeButton>
             </StyledMainContainer>
           </CSSTransition>

@@ -22,7 +22,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/andrew-ingson-194ab2150/',
     },
-
   ],
 
   navLinks: [

@@ -42,6 +42,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            banner
             name
             subtitle
             contactText
@@ -109,6 +110,24 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+          }
+          html
+        }
+      }
+    }
+    coursework: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/coursework/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            avatar {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            skills
           }
           html
         }

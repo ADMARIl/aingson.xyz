@@ -1,5 +1,6 @@
 ---
-title: 'HELLO! my name is'
+title: 'HELLO!'
+banner: ' my name is'
 name: 'Andrew Ingson'
 subtitle: 'I code things.'
 contactText: 'Say Hello!'
