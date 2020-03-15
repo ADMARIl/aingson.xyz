@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -114,7 +114,7 @@ const StyledAvatarLink = styled.a`
 
 const Coursework = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+  const { title, skills } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -128,11 +128,6 @@ const Coursework = ({ data }) => {
             {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
           </SkillsContainer>
         </StyledContent>
-        <StyledPic>
-          <StyledAvatarLink href={github}>
-            <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
-          </StyledAvatarLink>
-        </StyledPic>
       </StyledFlexContainer>
     </StyledContainer>
   );

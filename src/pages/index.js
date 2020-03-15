@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Layout, Hero, About, Jobs, Projects } from '@components';
+import Coursework from "../components/sections/coursework"
 import styled from 'styled-components';
 import { Main } from '@styles';
 
@@ -16,6 +17,7 @@ const IndexPage = ({ location, data }) => (
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Projects data={data.projects.edges} />
+      <Coursework data={data.projects.edges} />
     </StyledMainContainer>
   </Layout>
 );
@@ -120,13 +122,6 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            avatar {
-              childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
             skills
           }
           html
