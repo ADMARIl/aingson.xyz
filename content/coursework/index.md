@@ -3,19 +3,18 @@
 title: 'Academic Coursework'
 skills:
 
-- Python
-- C
-- C++
-- Java
-- HTML & (S)CSS
-- React
-- Node.js
-- Gatsby
-- AnjularJS
-- Rails
+- Computer Science I & II for Majors
+- Design and Analysis of Algorithms
+- Discrete Structures
+- Principles of Programming Languages
+- Data Structures
+- Computer Architecture
+- Computer Organization & Assembly Programing
+- Data Visualization
+- Principles of Operating Systems
+- Intro to Artificial Intelligence
+
 
 ---
-  
-Hello! TEST I'm Andrew, a software engineer in Baltimore, Marlyand. Right now, I'm on track to graduate with a BS in Computer Science from UMBC in May 2021
 
-Here are a few technologies I've been working with recently:
+Here are some of my classes so far:

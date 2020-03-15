@@ -17,7 +17,7 @@ const IndexPage = ({ location, data }) => (
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Projects data={data.projects.edges} />
-      <Coursework data={data.projects.edges} />
+      <Coursework data={data.coursework.edges} />
     </StyledMainContainer>
   </Layout>
 );
@@ -107,22 +107,22 @@ export const pageQuery = graphql`
         }
       }
     }
-    contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
-      edges {
-        node {
-          frontmatter {
-            title
-          }
-          html
-        }
-      }
-    }
     coursework: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/coursework/" } }) {
       edges {
         node {
           frontmatter {
             title
             skills
+          }
+          html
+        }
+      }
+    }
+    contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
           }
           html
         }
