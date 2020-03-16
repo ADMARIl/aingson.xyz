@@ -5,10 +5,14 @@
 <h1 align="center">
    aingson.xyz
 </h1>
-
 <p align="center">
    The third iteration of my personal website, <a href="https://aingson.xyz" target="_blank">aingson.xyz</a>.
-   </p>
+ </p>
+<p align="center">
+  Previous iterations:
+  <a href="https://github.com/ADMARIl/v1" target="_blank">v1</a>,
+  <a href="https://github.com/ADMARIl/v2" target="_blank">v2</a>
+</p>
 <div align="center">
    <a href="https://zeit.co/import/project?template=https://github.com/ADMARIl/aingson.xyz/tree/master" target="_blank">
     <img src="https://zeit.co/button" alt="Zeit Deploy" />
