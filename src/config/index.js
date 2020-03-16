@@ -40,7 +40,7 @@ module.exports = {
     {
       name: 'Coursework',
       url: '/#coursework',
-    }
+    },
   ],
 
   navHeight: 100,

@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Layout, Hero, About, Jobs, Projects } from '@components';
-import Coursework from "../components/sections/coursework"
+import Coursework from '../components/sections/coursework';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
