@@ -310,7 +310,7 @@ class Nav extends Component {
             </TransitionGroup>
           </StyledLink>
         </StyledNav>
-        
+
         <ToggleContainer>
           <CSSTransition classNames={fadeClass} timeout={timeout}>
             <ThemeToggler>

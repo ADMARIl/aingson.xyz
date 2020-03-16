@@ -1,7 +1,5 @@
 <div align="center">
   <img alt="Logo" src="https://github.com/ADMARIl/aingson.xyz/raw/develop/src/images/logo.png" width="100" />
-   
-   
 </div>
 
 <h1 align="center">
@@ -11,7 +9,7 @@
 <p align="center">
    The third iteration of my personal website, <a href="https://aingson.xyz" target="_blank">aingson.xyz</a>.
    </p>
-<div = align="center">
+<div align="center">
    <a href="https://zeit.co/import/project?template=https://github.com/ADMARIl/aingson.xyz/tree/master" target="_blank">
     <img src="https://zeit.co/button" alt="Zeit Deploy" />
   </a>
@@ -62,6 +60,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_large)
