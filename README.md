@@ -19,7 +19,8 @@
   </a>
   <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_shield" target="_blank">
     <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=shield" alt="FOSSA status" />
-  </div>
+  </a>
+</div>
 
 ## Installation
 
