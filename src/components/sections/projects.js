@@ -21,6 +21,18 @@ const StyledTitle = styled.h4`
   a {
     display: block;
   }
+  &:before {
+    counter-increment: section;
+    content: '0' counter(section) '.';
+    margin-right: 10px;
+    font-family: ${fonts.SFMono};
+    font-weight: normal;
+    color: ${colors.dark};
+    font-size: ${fontSizes.lg};
+    position: relative;
+    bottom: 4px;
+    ${media.tablet`font-size: ${fontSizes.lg};`};
+  }
 `;
 const StyledArchiveLink = styled(Link)`
   ${mixins.inlineLink};
