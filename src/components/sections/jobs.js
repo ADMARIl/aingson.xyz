@@ -63,6 +63,7 @@ const StyledTabButton = styled.button`
   display: flex;
   align-items: center;
   width: 100%;
+  max-width: ${theme.tabWidth}px;
   background-color: transparent;
   height: ${theme.tabHeight}px;
   padding: 0 20px 2px;

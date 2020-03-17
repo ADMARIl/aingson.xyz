@@ -18,7 +18,7 @@ const theme = {
     pink: '#FF647F',
     yellow: '#FFC464',
     orange: '#FF9E64',
-    green: '#B8E8FF',
+    green: '#020c1bb3',
     blue: '#71AFFF',
     darkBlue: '#1D7FFC',
     highlight: 'rgba(41, 61, 90, 0.99)',
@@ -66,12 +66,12 @@ const theme = {
   margin: '20px',
 
   tabHeight: 42,
-  tabWidth: 120,
+  tabWidth: 230,
   radius: 3,
 
   gradient: `linear-gradient(0.4turn, #64d6ff, #64ffda)`,
 
-  loaderDelay: `6`,
+  loaderDelay: `0`,
 
   hamburgerWidth: 30,
   hamBefore: `top 0.1s ease-in 0.25s, opacity 0.1s ease-in`,
