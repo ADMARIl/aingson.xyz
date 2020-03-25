@@ -38,6 +38,8 @@ const theme = {
     sideBarBlack: '#020c1bb3',
     mapBlack: '#000',
     lightSlate2: '#eaebec',
+
+    newGreen: '#8DEA86',
   },
 
   fonts: {
