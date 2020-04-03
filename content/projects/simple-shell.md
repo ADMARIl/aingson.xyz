@@ -4,8 +4,8 @@ title: 'Simple Shell'
 github: 'https://github.com/ADMARIl/simple-shell'
 tech:
   - C
-  - Makefile 
+  - Makefile
 showInProjects: true
 ---
 
-An implemnation of a shell program, supporting a few very basic features of a full-fledged *nix shell.
+An implemnation of a shell program, supporting a few very basic features of a full-fledged \*nix shell.

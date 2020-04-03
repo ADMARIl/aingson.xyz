@@ -13,4 +13,5 @@ skills:
   - Assembly
   - Rails
 ---
+
 Here are a few technologies I've been working with recently:
