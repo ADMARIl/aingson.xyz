@@ -18,7 +18,7 @@ const theme = {
     pink: '#FF647F',
     yellow: '#FFC464',
     orange: '#FF9E64',
-    green: '#020c1bb3',
+    green: '#B8E8FF',
     blue: '#71AFFF',
     darkBlue: '#1D7FFC',
     highlight: 'rgba(41, 61, 90, 0.99)',
