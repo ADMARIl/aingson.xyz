@@ -3,14 +3,15 @@ title: 'About Me'
 avatar: './AndrewHeadshot2.jpg'
 skills:
   - Python
-  - C
-  - C++
+  - C & C++
+  - JS (ES6+)
   - Java
   - HTML & (S)CSS
   - React
   - Node.js
   - Gatsby
-  - AnjularJS
+  - Assembly
   - Rails
 ---
+
 Here are a few technologies I've been working with recently:

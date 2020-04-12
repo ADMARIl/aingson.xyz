@@ -22,7 +22,7 @@ const HelloContainerRed = styled(Section)`
   ${media.desktop`width: 500px;`};
   ${media.tablet`width: 410px;`};
   ${media.phablet`width: 375px;`};
-  ${media.phone`width: 320px;`};
+  ${media.phone`width: 280px;`};
   margin: 0px 0px 20px -9px;
   padding: 20px 50px 20px 20px !important;
   margin-bottom: 0px;
@@ -30,11 +30,19 @@ const HelloContainerRed = styled(Section)`
 const HelloContainerwhite = styled(Section)`
   background-color: ${colors.white};
   margin: 0px 0px 10px -9px;
-  padding: 20px 50px 5px 10px !important;
-  ${media.desktop`width: 500px;`};
-  ${media.tablet`width: 410px;`};
-  ${media.phablet`width: 375px;`};
-  ${media.phone`width: 320px;`};
+  padding: 20px 50px 5px 10px;
+  ${media.desktop`
+    width: 500px;
+    padding: 20px 50px 5px 10px !important;`};
+  ${media.tablet`
+    width: 410px;
+    padding: 20px 50px 5px 10px !important;`};
+  ${media.phablet`
+    width: 375px;
+    padding: 20px 10px 5px 10px !important;`};
+  ${media.phone`
+    width: 280px;
+    padding: 20px 10px 5px 10px !important;`};
   border-style: solid;
 `;
 const StyledOverline = styled.h1`
@@ -48,6 +56,7 @@ const StyledOverline = styled.h1`
 `;
 const StyledTitle = styled.h2`
   font-size: 80px;
+  color: ${colors.dark};
   line-height: 1.1;
   margin: 0;
   ${media.desktop`font-size: 70px;`};
@@ -58,7 +67,7 @@ const StyledTitle = styled.h2`
 const StyledSubtitle = styled.h3`
   font-size: 80px;
   line-height: 1.1;
-  color: ${colors.contrastSlate};
+
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};

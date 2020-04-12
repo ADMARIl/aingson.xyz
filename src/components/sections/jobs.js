@@ -63,6 +63,7 @@ const StyledTabButton = styled.button`
   display: flex;
   align-items: center;
   width: 100%;
+  max-width: ${theme.tabWidth}px;
   background-color: transparent;
   height: ${theme.tabHeight}px;
   padding: 0 20px 2px;
@@ -72,7 +73,7 @@ const StyledTabButton = styled.button`
   white-space: nowrap;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${props => (props.isActive ? colors.mapBlack : colors.mapBlack)};
+
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};
@@ -84,7 +85,7 @@ const StyledTabButton = styled.button`
   `};
   &:hover,
   &:focus {
-    background-color: ${colors.lightNavy};
+    background-color: ${colors.mapDarkBlue};
   }
 `;
 const StyledHighlight = styled.span`
@@ -134,7 +135,6 @@ const StyledTabContent = styled.div`
   }
 `;
 const StyledJobTitle = styled.h4`
-  color: ${colors.contrastSlate};
   font-size: ${fontSizes.xxl};
   font-weight: 500;
   margin-bottom: 5px;
@@ -147,7 +147,6 @@ const StyledJobDetails = styled.h5`
   font-size: ${fontSizes.smish};
   font-weight: normal;
   letter-spacing: 0.05em;
-  color: ${colors.contrastSlate};
   margin-bottom: 30px;
   svg {
     width: 15px;
@@ -209,7 +208,7 @@ const Jobs = ({ data }) => {
                     ref={el => (tabs.current[i] = el)}
                     id={`tab-${i}`}
                     role="tab"
-                    aria-selected={activeTabId === i ? true : false}
+                    aria-selected={activeTabId === i}
                     aria-controls={`panel-${i}`}
                     tabIndex={activeTabId === i ? '0' : '-1'}>
                     <span>{company}</span>

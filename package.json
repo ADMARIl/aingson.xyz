@@ -19,6 +19,11 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{js,css,json,md}": [
       "prettier --write",
@@ -70,6 +75,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "gatsby-remark-code-titles": "^1.1.0",
+    "husky": "^4.2.3",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
   }

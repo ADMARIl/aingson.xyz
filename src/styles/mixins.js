@@ -145,7 +145,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: ${colors.mapBlack};
+        color: ${colors.mapBlue};
       }
     }
   `,

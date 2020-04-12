@@ -323,9 +323,9 @@ class Nav extends Component {
                     hidden
                   />
                   {theme === 'light' ? (
-                    <div className={styles.on}></div>
+                    <div className={styles.on} />
                   ) : (
-                    <div className={styles.off}></div>
+                    <div className={styles.off} />
                   )}
                 </label>
               )}

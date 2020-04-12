@@ -38,6 +38,9 @@ const theme = {
     sideBarBlack: '#020c1bb3',
     mapBlack: '#000',
     lightSlate2: '#eaebec',
+
+    newGreen: '#8DEA86',
+    darkMode: '#142236',
   },
 
   fonts: {
@@ -66,12 +69,12 @@ const theme = {
   margin: '20px',
 
   tabHeight: 42,
-  tabWidth: 120,
+  tabWidth: 230,
   radius: 3,
 
   gradient: `linear-gradient(0.4turn, #64d6ff, #64ffda)`,
 
-  loaderDelay: `6`,
+  loaderDelay: `0`,
 
   hamburgerWidth: 30,
   hamBefore: `top 0.1s ease-in 0.25s, opacity 0.1s ease-in`,

@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
   body.dark {
     -webkit-font-smoothing: antialiased;
   
-    --bg: ${colors.mediumGrey};
+    --bg: ${colors.darkMode};
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     --textLink: yellow;
@@ -76,9 +76,12 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-weight: 600;
-    color: ${colors.dark};
+    font-weight: 600; 
     margin: 0 0 10px 0;
+  }
+
+  div.dark {
+    color: white;
   }
 
   h1.dark,
@@ -87,7 +90,7 @@ const GlobalStyle = createGlobalStyle`
   h4.dark,
   h5.dark,
   h6.dark {
-    color: ${colors.white};
+    color: white !important;
   }
 
   h1 {
@@ -172,6 +175,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
+    
     margin: 0 0 15px 0;
 
     & > a {
@@ -244,7 +248,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .subtitle {
-    color: ${colors.green};
+    color: ${colors.contrastSlate};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
     font-family: ${fonts.SFMono};
@@ -283,6 +287,10 @@ const GlobalStyle = createGlobalStyle`
 
   .gatsby-image-outer-wrapper {
     height: 100%;
+  }
+
+  .dark {
+    color: ${colors.cream};
   }
 
   ${TransitionStyles};
