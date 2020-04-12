@@ -40,6 +40,7 @@ const theme = {
     lightSlate2: '#eaebec',
 
     newGreen: '#8DEA86',
+    darkMode: '#142236',
   },
 
   fonts: {

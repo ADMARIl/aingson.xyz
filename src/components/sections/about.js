@@ -26,7 +26,7 @@ const StyledContent = styled.div`
 const SkillsContainer = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
-  overflow: hidden;
+  overflow: hidden
   padding: 0;
   margin: 20px 0 0 0;
   list-style: none;
@@ -37,7 +37,6 @@ const Skill = styled.li`
   padding-left: 20px;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${colors.contrastSlate};
   &:before {
     content: '▹';
     position: absolute;

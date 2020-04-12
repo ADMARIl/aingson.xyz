@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
   body.dark {
     -webkit-font-smoothing: antialiased;
   
-    --bg: ${colors.lightNavy};
+    --bg: ${colors.darkMode};
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     --textLink: yellow;

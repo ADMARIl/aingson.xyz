@@ -19,7 +19,6 @@ const Heading = styled.h3`
     margin-right: 10px;
     font-family: ${fonts.SFMono};
     font-weight: normal;
-    color: ${colors.dark};
     font-size: ${fontSizes.xl};
     position: relative;
     bottom: 4px;

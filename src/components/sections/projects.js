@@ -27,7 +27,7 @@ const StyledTitle = styled.h4`
     margin-right: 10px;
     font-family: ${fonts.SFMono};
     font-weight: normal;
-    color: ${colors.dark};
+
     font-size: ${fontSizes.lg};
     position: relative;
     bottom: 4px;
@@ -180,7 +180,7 @@ const Projects = ({ data }) => {
                     ref={el => (revealProjects.current[i] = el)}
                     tabIndex="0"
                     style={{
-                      transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 0 : 0}ms`,
+                      transitionDelay: `${i >= GRID_LIMIT ? 0 : 0}ms`,
                     }}>
                     <StyledProjectInner>
                       <header>
