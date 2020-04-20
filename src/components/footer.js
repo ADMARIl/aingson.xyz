@@ -6,8 +6,6 @@ import {
   IconCodepen,
   IconInstagram,
   IconTwitter,
-  IconStar,
-  IconFork,
 } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -50,28 +48,9 @@ const StyledMetadata = styled.div`
   font-size: ${fontSizes.xs};
   line-height: 1;
 `;
-const StyledGitHubLink = styled.a`
-  color: ${colors.slate};
-  padding: 10px;
-`;
-const StyledGitHubInfo = styled.div`
-  margin-top: 10px;
-
-  & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
-  svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
-`;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
+  const [setGitHubInfo] = useState({
     stars: null,
     forks: null,
   });
@@ -127,7 +106,8 @@ const Footer = () => {
           <a href="https://aingson.xyz/">aingson.xyz</a> is made by{' '}
           <a href="mailto:aings1@umbc.edu">Andrew</a> with{' '}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>. See it on{' '}
-          <a href="https://github.com/ADMARIl/aingson.xyz">github</a>. &copy; 2020
+          <a href="https://github.com/ADMARIl/aingson.xyz">github</a>. &copy;{' '}
+          {new Date().getFullYear()}
         </div>
       </StyledMetadata>
     </StyledContainer>
