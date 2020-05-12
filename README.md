@@ -17,9 +17,6 @@
    <a href="https://zeit.co/import/project?template=https://github.com/ADMARIl/aingson.xyz/tree/master" target="_blank">
     <img src="https://zeit.co/button" alt="Zeit Deploy" />
   </a>
-  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_shield" target="_blank">
-    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=shield" alt="FOSSA status" />
-  </a>
 </div>
 
 ## Installation
@@ -65,5 +62,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FADMARIl%2Faingson.xyz?ref=badge_large)
