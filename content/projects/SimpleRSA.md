@@ -9,4 +9,4 @@ showInProjects: true
 showcase: true
 ---
 
-Implementation of the RSA encryption algorithm and a few methods to break it
+Implementation of the RSA encryption algorithm and a few methods to break it.

@@ -9,4 +9,4 @@ showInProjects: false
 showcase: true
 ---
 
-Implementation of an interprocess communication system in the linux kernel using mailboxes for my Principles of Operating Systems class
+Implementation of an interprocess communication system in the linux kernel using mailboxes for my Principles of Operating Systems class.

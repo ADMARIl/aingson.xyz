@@ -8,4 +8,4 @@ showInProjects: true
 showcase: true
 ---
 
-An implemention of an interpreter for the FORTH-like programming language. In FORTH, arithmetic operations are written in Reverse Polish Notation (RPN).
+An implement ion of an interpreter for the FORTH-like programming language. In [FORTH](<https://en.wikipedia.org/wiki/Forth_(programming_language)>), arithmetic operations are written in [Reverse Polish Notation (RPN)](https://en.wikipedia.org/wiki/Reverse_Polish_notation).

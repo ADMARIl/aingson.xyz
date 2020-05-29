@@ -11,4 +11,4 @@ showInProjects: true
 showcase: true
 ---
 
-Web app that allows people to remotely trigger a car horn in a variety of sequences
+Web app that allows people to remotely trigger a web embedded car horn in a variety of sequences.
