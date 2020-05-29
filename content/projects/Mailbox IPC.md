@@ -5,7 +5,7 @@ github: 'https://github.com/ADMARIl/CMSC421-project1'
 tech:
   - C
   - Linux Kernel
-showInProjects: true
+showInProjects: false
 showcase: true
 ---
 

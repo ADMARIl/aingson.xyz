@@ -91,7 +91,7 @@ export const pageQuery = graphql`
     projects: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false }, showcase: { ne: false } }
+        frontmatter: { showInProjects: { ne: false } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {

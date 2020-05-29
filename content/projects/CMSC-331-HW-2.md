@@ -4,7 +4,7 @@ title: 'CMSC-331-HW-2'
 github: 'https://github.com/ADMARIl/CMSC-331-HW-2'
 tech:
   - Python
-showInProjects: true
+showInProjects: false
 showcase: false
 ---
 

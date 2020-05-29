@@ -10,4 +10,4 @@ showInProjects: true
 showcase: true
 ---
 
-Implementation of syscall blocking in the linuk kernel using a skipList for my Principles of Operating Systems class
+Implementation of syscall blocking in the linux kernel using a skipList for my Principles of Operating Systems class

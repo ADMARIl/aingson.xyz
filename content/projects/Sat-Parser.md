@@ -5,7 +5,7 @@ github: 'https://github.com/ADMARIl/Sat-JSON-parser'
 tech:
   - C#
   - JSON.net
-showInProjects: true
+showInProjects: false
 showcase: true
 ---
 
