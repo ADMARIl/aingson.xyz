@@ -5,6 +5,7 @@ github: 'https://github.com/ADMARIl/Sally'
 tech:
   - C++
 showInProjects: true
+showcase: true
 ---
 
 An implemention of an interpreter for the FORTH-like programming language. In FORTH, arithmetic operations are written in Reverse Polish Notation (RPN).

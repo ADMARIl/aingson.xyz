@@ -6,6 +6,7 @@ tech:
   - C#
   - JSON.net
 showInProjects: true
+showcase: true
 ---
 
 A C# project to parse the data from a ~~json~~ csv file containing data on many celestial bodies currently orbiting the earth.
