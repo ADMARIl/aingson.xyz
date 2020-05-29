@@ -11,6 +11,10 @@ const StyledLinkWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+  color: ${colors.darkestNavy};
+  &:hover {
+    color: ${colors.mapBlue};
+  }
   &:after {
     content: '';
     display: block;

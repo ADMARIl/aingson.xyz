@@ -14,7 +14,7 @@ const StyledList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
-  color: ${colors.mapPurple};
+  color: ${colors.darkestNavy};
 
   &:after {
     content: '';
@@ -22,7 +22,11 @@ const StyledList = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.lightSlate2};
+    background-color: ${colors.lightSlate};
+  }
+  &:focus,
+  &:hover {
+    color: ${colors.mapBlue};
   }
 
   li:last-of-type {

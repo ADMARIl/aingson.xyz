@@ -43,6 +43,10 @@ const StyledArchiveLink = styled(Link)`
   &:after {
     bottom: 0.1em;
   }
+  &:hover,
+  &:focus {
+    color: ${colors.mapBlue};
+  }
 `;
 const StyledGrid = styled.div`
   margin-top: 50px;
