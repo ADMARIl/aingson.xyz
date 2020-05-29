@@ -186,10 +186,7 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false } }
-      }
+      filter: { fileAbsolutePath: { regex: "/projects/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

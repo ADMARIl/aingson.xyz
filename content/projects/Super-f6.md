@@ -7,6 +7,7 @@ tech:
   - C#
   - Unity
 showInProjects: true
+showcase: false
 ---
 
-An open-source Unity system for data visualization of different satellites and celestial bodies which I contributed to for a Data Visualization class
+An open-source Unity system for data visualization of different satellites and celestial bodies which I contributed to for a Data Visualization class.

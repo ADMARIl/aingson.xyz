@@ -85,7 +85,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transGreen};
+      background-color: ${colors.contrastSlate};
     }
     &:after {
       display: none !important;

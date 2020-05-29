@@ -6,6 +6,7 @@ external: 'https://plugins.jetbrains.com/plugin/14093-halcyon-theme'
 tech:
   - JetBrains Plugin SDK
 showInProjects: true
+showcase: true
 ---
 
-A minimal, dark blue theme for the JetBrains suite of IDEs
+A minimal, dark blue theme for the JetBrains suite of IDEs.

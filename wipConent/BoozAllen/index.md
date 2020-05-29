@@ -1,6 +1,6 @@
 ---
 date: '2020-6-3'
-title: 'Summer Games Intern'
+title: 'Cyber Intern'
 company: 'Booz Allen Hamilton'
 location: 'Annapolis Junction, MD'
 range: 'June - August 2020'
