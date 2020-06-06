@@ -1,5 +1,6 @@
 ---
 date: '2018-9-4'
+show: true
 title: 'Lab Intern'
 company: 'UMBC Chemistry Department'
 location: 'Baltimore, MD'

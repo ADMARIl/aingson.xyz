@@ -10,7 +10,11 @@ import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
 const { colors, fonts, fontSizes } = theme;
 
-const StyledMainContainer = styled(Main)``;
+const StyledMainContainer = styled(Main)`
+  p {
+    font-family: ${fonts.JBMono};
+  }
+`;
 const StyledTableContainer = styled.div`
   margin: 100px -20px;
   background-color: ${colors.mapBlue};
