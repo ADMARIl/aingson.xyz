@@ -44,6 +44,25 @@ import SFMonoSemiboldItalicTTF from '@fonts/SFMono/SFMono-SemiboldItalic.ttf';
 import SFMonoSemiboldItalicWOFF from '@fonts/SFMono/SFMono-SemiboldItalic.woff';
 import SFMonoSemiboldItalicWOFF2 from '@fonts/SFMono/SFMono-SemiboldItalic.woff2';
 
+import JBMonoRegularTTF from '@fonts/JBMono/JetBrainsMono-Regular.ttf';
+import JBMonoRegularWOFF from '@fonts/JBMono/JetBrainsMono-Regular.woff';
+import JBMonoRegularWOFF2 from '@fonts/JBMono/JetBrainsMono-Regular.woff2';
+import JBMonoItalicTTF from '@fonts/JBMono/JetBrainsMono-Italic.ttf';
+import JBMonoItalicWOFF from '@fonts/JBMono/JetBrainsMono-Italic.woff';
+import JBMonoItalicWOFF2 from '@fonts/JBMono/JetBrainsMono-Italic.woff2';
+import JBMonoMediumTTF from '@fonts/JBMono/JetBrainsMono-Medium.ttf';
+import JBMonoMediumWOFF from '@fonts/JBMono/JetBrainsMono-Medium.woff';
+import JBMonoMediumWOFF2 from '@fonts/JBMono/JetBrainsMono-Medium.woff2';
+import JBMonoMediumItalicTTF from '@fonts/JBMono/JetBrainsMono-Medium-Italic.ttf';
+import JBMonoMediumItalicWOFF from '@fonts/JBMono/JetBrainsMono-Medium-Italic.woff';
+import JBMonoMediumItalicWOFF2 from '@fonts/JBMono/JetBrainsMono-Medium-Italic.woff2';
+import JBMonoBoldTTF from '@fonts/JBMono/JetBrainsMono-Bold.ttf';
+import JBMonoBoldWOFF from '@fonts/JBMono/JetBrainsMono-Bold.woff';
+import JBMonoBoldWOFF2 from '@fonts/JBMono/JetBrainsMono-Bold.woff2';
+import JBMonoBoldItalicTTF from '@fonts/JBMono/JetBrainsMono-Bold-Italic.ttf';
+import JBMonoBoldItalicWOFF from '@fonts/JBMono/JetBrainsMono-Bold-Italic.woff';
+import JBMonoBoldItalicWOFF2 from '@fonts/JBMono/JetBrainsMono-Bold-Italic.woff2';
+
 const FontFaces = css`
   @font-face {
     font-family: 'Calibre';
@@ -147,6 +166,49 @@ const FontFaces = css`
     src: url(${SFMonoSemiboldItalicWOFF2}) format('woff2'),
       url(${SFMonoSemiboldItalicWOFF}) format('woff'),
       url(${SFMonoSemiboldItalicTTF}) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoRegularWOFF2}) format('woff2'), url(${JBMonoRegularWOFF}) format('woff'),
+      url(${JBMonoRegularTTF}) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoItalicWOFF2}) format('woff2'), url(${JBMonoItalicWOFF}) format('woff'),
+      url(${JBMonoItalicTTF}) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoMediumWOFF2}) format('woff2'), url(${JBMonoMediumWOFF}) format('woff'),
+      url(${JBMonoMediumTTF}) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoMediumItalicWOFF2}) format('woff2'),
+      url(${JBMonoMediumItalicWOFF}) format('woff'),
+      url(${JBMonoMediumItalicTTF}) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoBoldWOFF2}) format('woff2'), url(${JBMonoBoldWOFF}) format('woff'),
+      url(${JBMonoBoldTTF}) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'JB Mono';
+    src: url(${JBMonoBoldItalicWOFF2}) format('woff2'), url(${JBMonoBoldItalicWOFF}) format('woff'),
+      url(${JBMonoBoldItalicTTF}) format('truetype');
     font-weight: 600;
     font-style: italic;
   }
