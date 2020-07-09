@@ -1,10 +1,10 @@
 ---
 date: '2016-6-1'
 show: true
-title: 'Aquatics Progam Specialist'
+title: 'Aquatics Instructor & Supervisor'
 company: 'JCC of Greater Baltimore'
 location: 'Owings Mills, MD'
-range: 'June 2016 - March 2020'
+range: 'June 2016 - June 2020'
 url: 'https://jcc.org'
 ---
 

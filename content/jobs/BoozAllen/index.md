@@ -1,11 +1,12 @@
 ---
 date: '2020-6-8'
-show: false
-title: 'Cyber Intern'
+show: True
+title: 'Software Engineering Intern'
 company: 'Booz Allen Hamilton'
 location: 'Annapolis Junction, MD'
 range: 'June 2020 - Ongoing'
 url: 'https://www.boozallen.com/careers/university-talent/booz-allen-summer-games.html'
 ---
 
-- Contributed to the development of the Silent Modem project
+- Delivered convert communications solutions using technologies such as quiet and android
+- Worked with a team of fellow interns to develop our project, from concept to prototype
