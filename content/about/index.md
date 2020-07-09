@@ -6,6 +6,7 @@ skills:
   - C & C++
   - JS (ES6+)
   - Java
+  - Android
   - HTML & (S)CSS
   - React
   - Node.js

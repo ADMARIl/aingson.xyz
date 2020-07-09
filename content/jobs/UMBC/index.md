@@ -1,9 +1,10 @@
 ---
 date: '2018-9-4'
-title: 'Lab Intern'
+show: true
+title: 'Lab Assistant'
 company: 'UMBC Chemistry Department'
 location: 'Baltimore, MD'
-range: 'September 2018 - Ongoing'
+range: 'September 2018 - March 2020'
 url: 'https://cullumlab.umbc.edu'
 ---
 

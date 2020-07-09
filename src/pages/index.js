@@ -72,7 +72,7 @@ export const pageQuery = graphql`
       }
     }
     jobs: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/jobs/" } }
+      filter: { fileAbsolutePath: { regex: "/jobs/" }, frontmatter: { show: { ne: false } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
