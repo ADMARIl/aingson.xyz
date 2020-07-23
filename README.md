@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div align="center">
-  <img alt="Logo" src="https://github.com/ADMARIl/aingson.xyz/raw/develop/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/ADMARIl/aingson.xyz/master/src/images/logo.png" width="100" />
 </div>
 
 <h1 align="center">
@@ -20,7 +20,7 @@
   </a>
 </div>
 
-![code](https://raw.githubusercontent.com/ADMARIl/aingson.xyz/develop/src/images/og-shadow.png)
+![code](https://raw.githubusercontent.com/ADMARIl/aingson.xyz/master/src/images/og-shadow.png)
 
 ## Installation
 
