@@ -4,7 +4,7 @@ show: True
 title: 'Software Engineering Intern'
 company: 'Booz Allen Hamilton'
 location: 'Annapolis Junction, MD'
-range: 'June 2020 - Ongoing'
+range: 'June 2020 - August 2020'
 url: 'https://www.boozallen.com/careers/university-talent/booz-allen-summer-games.html'
 ---
 

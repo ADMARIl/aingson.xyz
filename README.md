@@ -20,7 +20,7 @@
   </a>
 </div>
 
-![code](https://raw.githubusercontent.com/ADMARIl/aingson.xyz/master/src/images/og-shadow.png)
+![code](src/images/og-shadow.png)
 
 ## Installation
 
