@@ -58,25 +58,25 @@
     "lodash": "^4.17.15",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
-    "styled-components": "^4.4.0"
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@upstatement/eslint-config": "0.4.3",
     "@upstatement/prettier-config": "^0.3.0",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
+    "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^4.2.3",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2"
   }
 }
