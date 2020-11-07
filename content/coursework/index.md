@@ -11,6 +11,9 @@ skills:
   - Data Visualization
   - Principles of Operating Systems
   - Intro to Artificial Intelligence
+  - Software Engineering
+  - Database Management Systems
+  - Graphics for Games (Unreal)
 ---
 
 Here are some of my classes so far:
