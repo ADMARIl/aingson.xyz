@@ -2,7 +2,7 @@
 date: '2020-12-03'
 title: 'My Grocery Tracker'
 github: 'https://github.com/ADMARIl/GroceryTrackerDB'
-external: 'https://admaril.github.io/'
+external: 'https://www.youtube.com/watch?v=iLikaFGI3B8'
 tech:
   - Expo
   - React
