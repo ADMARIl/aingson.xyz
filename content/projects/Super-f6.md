@@ -6,7 +6,7 @@ external: 'https://docs.google.com/presentation/d/1rJPebZL2TNYJlRaIKuOjzEvaOkeao
 tech:
   - C#
   - Unity
-showInProjects: true
+showInProjects: false
 showcase: false
 ---
 

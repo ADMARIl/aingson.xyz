@@ -4,7 +4,7 @@ title: 'Statistics Calculator'
 github: 'https://github.com/ADMARIl/CMSC-331-HW-2'
 tech:
   - Python
-showInProjects: false
+showInProjects: true
 showcase: false
 ---
 
