@@ -1,18 +1,19 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { IconGitHub, IconExternal, IconFolder } from '@components/icons';
+import { IconExternal, IconFolder, IconGitHub } from '@components/icons';
 import styled from 'styled-components';
-import { theme, mixins, media, Section, Button } from '@styles';
+import { Button, media, mixins, Section, theme } from '@styles';
+
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 `;
 const StyledTitle = styled.h4`
   margin: 0 auto;
