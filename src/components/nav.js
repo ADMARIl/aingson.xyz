@@ -3,21 +3,20 @@ import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import { throttle } from '@utils';
-import { navLinks, navHeight } from '@config';
+import { navHeight, navLinks } from '@config';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
-import styles from './toggle.module.css';
-import { theme, mixins, media } from '@styles';
+import { media, mixins, theme } from '@styles';
+
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.header`
   ${mixins.flexBetween};
   position: fixed;
   top: 0;
-  padding: 0px 50px;
+  padding: 0 50px;
   background-color: ${colors.mapDarkBlue};
   transition: ${theme.transition};
   z-index: 11;
@@ -28,14 +27,9 @@ const StyledContainer = styled.header`
   height: ${props => (props.scrollDirection === 'none' ? theme.navHeight : theme.navScrollHeight)};
   box-shadow: ${props =>
     props.scrollDirection === 'up' ? `0 10px 30px -10px ${colors.shadowNavy}` : 'none'};
-  transform: translateY(
-    ${props => (props.scrollDirection === 'down' ? `-${theme.navScrollHeight}` : '0px')}
-  );
+  transform: translateY(${props => (props.scrollDirection === 'down' ? `-${theme.navScrollHeight}` : '0px')});
   ${media.desktop`padding: 0 40px;`};
   ${media.tablet`padding: 0 25px;`};
-`;
-const ToggleContainer = styled.div`
-  padding: 0px 0px 0px 20px;
 `;
 const StyledNav = styled.nav`
   ${mixins.flexBetween};
@@ -311,28 +305,28 @@ class Nav extends Component {
           </StyledLink>
         </StyledNav>
 
-        <ToggleContainer>
-          <CSSTransition classNames={fadeClass} timeout={timeout}>
-            <ThemeToggler>
-              {({ theme, toggleTheme }) => (
-                <label>
-                  <input
-                    type="checkbox"
-                    onChange={e => toggleTheme(e.target.checked ? 'light' : 'dark')}
-                    checked={theme === 'light'}
-                    hidden
-                  />
-                  {theme === 'light' ? (
-                    <div className={styles.on} />
-                  ) : (
-                    <div className={styles.off} />
-                  )}
-                </label>
-              )}
-            </ThemeToggler>
-          </CSSTransition>
-        </ToggleContainer>
-        <Menu menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
+        {/*<ToggleContainer>*/}
+        {/*  <CSSTransition classNames={fadeClass} timeout={timeout}>*/}
+        {/*    <ThemeToggler>*/}
+        {/*      {({ theme, toggleTheme }) => (*/}
+        {/*        <label>*/}
+        {/*          <input*/}
+        {/*            type="checkbox"*/}
+        {/*            onChange={e => toggleTheme(e.target.checked ? 'light' : 'dark')}*/}
+        {/*            checked={theme === 'light'}*/}
+        {/*            hidden*/}
+        {/*          />*/}
+        {/*          {theme === 'light' ? (*/}
+        {/*            <div className={styles.on} />*/}
+        {/*          ) : (*/}
+        {/*            <div className={styles.off} />*/}
+        {/*          )}*/}
+        {/*        </label>*/}
+        {/*      )}*/}
+        {/*    </ThemeToggler>*/}
+        {/*  </CSSTransition>*/}
+        {/*</ToggleContainer>*/}
+        <Menu menuOpen={menuOpen} toggleMenu={this.toggleMenu}/>
       </StyledContainer>
     );
   }
