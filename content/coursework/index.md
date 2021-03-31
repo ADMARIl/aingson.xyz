@@ -14,6 +14,8 @@ skills:
   - Software Engineering
   - Database Management Systems
   - Graphics for Games (Unreal)
+  - Computer Vision
+  - Data Science
 ---
 
 Here are some of my classes so far:
