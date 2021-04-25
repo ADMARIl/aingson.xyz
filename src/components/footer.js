@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import {
-  IconGitHub,
-  IconLinkedin,
-  IconCodepen,
-  IconInstagram,
-  IconTwitter,
-} from '@components/icons';
+import { IconGitHub, IconInstagram, IconLinkedin, IconLogo, IconTwitter } from '@components/icons';
+import IconMail from './icons/mail';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
-import { theme, mixins, media } from '@styles';
+import { media, mixins, theme } from '@styles';
+
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.footer`
@@ -87,14 +83,14 @@ const Footer = () => {
                     <IconGitHub />
                   ) : name === 'Linkedin' ? (
                     <IconLinkedin />
-                  ) : name === 'Codepen' ? (
-                    <IconCodepen />
+                  ) : name === 'Mail' ? (
+                    <IconMail />
                   ) : name === 'Instagram' ? (
                     <IconInstagram />
                   ) : name === 'Twitter' ? (
                     <IconTwitter />
                   ) : (
-                    <IconGitHub />
+                    <IconLogo />
                   )}
                 </StyledSocialLink>
               </li>

@@ -1,12 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  IconGitHub,
-  IconLinkedin,
-  IconCodepen,
-  IconInstagram,
-  IconTwitter,
-} from '@components/icons';
+import { IconCodepen, IconGitHub, IconInstagram, IconLinkedin, IconTwitter } from '@components/icons';
+import IconMail from './mail';
 
 const FormattedIcon = ({ name }) => {
   switch (name) {
@@ -20,6 +15,8 @@ const FormattedIcon = ({ name }) => {
       return <IconInstagram />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'Mail':
+      return <IconMail />;
     default:
       return <IconGitHub />;
   }

@@ -22,6 +22,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/andrew-ingson-194ab2150/',
     },
+    {
+      name: 'Mail',
+      url: 'mailto:aings1@umbc.edu',
+    },
   ],
 
   navLinks: [
