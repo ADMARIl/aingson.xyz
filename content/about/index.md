@@ -3,7 +3,7 @@ title: 'About Me'
 avatar: './AndrewHeadshot2.jpg'
 skills:
   - Python
-  - C, C++, & C#
+  - C & C++
   - JS (ES6+)
   - Java
   - Android

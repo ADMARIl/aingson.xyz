@@ -7,7 +7,6 @@ tech:
   - Expo
   - React
   - JS
-  - SQL
 showInProjects: true
 showcase: true
 ---
