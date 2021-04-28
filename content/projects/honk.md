@@ -1,8 +1,8 @@
 ---
 date: '2020-02-07'
 title: 'HONK!'
-github: 'https://github.com/ADMARIl/ADMARIl.github.io'
-external: 'https://admaril.github.io/'
+github: 'https://github.com/ADMARIl/photon-honk'
+external: 'https://admaril.github.io/photon-honk'
 tech:
   - Bootstrap
   - Particle API
