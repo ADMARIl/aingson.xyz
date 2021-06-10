@@ -6,7 +6,7 @@ tech:
   - C
   - Makefile
 showInProjects: true
-showcase: true
+showcase: false
 ---
 
-An implemnation of a shell program, supporting a few very basic features of a full-fledged \*nix shell.
+An implementation of a shell program, supporting a few very basic features of a full-fledged \*nix shell.

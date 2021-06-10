@@ -11,4 +11,4 @@ showInProjects: true
 showcase: true
 ---
 
-Mobile app that allows users to use their phone camera to scan the barcodes of their groceries and maintain an inventory
+Mobile app that allows users to use their phone camera to scan the barcodes of their groceries and maintain an inventory.
