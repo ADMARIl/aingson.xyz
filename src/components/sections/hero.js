@@ -46,6 +46,10 @@ const HelloContainerwhite = styled(Section)`
     padding: 20px 10px 5px 10px !important;`};
   border-style: solid;
 `;
+const TypeFragment = styled(Section)`
+  flex: 0 0 auto;
+  padding: 0;
+`;
 const StyledOverline = styled.h1`
   color: ${colors.dark};
   margin: 0 0 0px 0px;
@@ -68,6 +72,7 @@ const StyledTitle = styled.h2`
 const StyledSubtitle = styled.h3`
   font-size: 80px;
   line-height: 1.1;
+  display: flex;
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};
@@ -111,17 +116,18 @@ const Hero = ({ data }) => {
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>
-      <div style={{ flexDirection: 'row' }}>
-        I <Typewriter
-          options={{
-            strings: ['code', 'design', 'create', 'develop'],
-            autoStart: true,
-            loop: true,
-            pauseFor: 1500,
-          }}
-          style={{ flexDirection: 'row' }}
-        /> things
-      </div>
+      <TypeFragment>I ​</TypeFragment>
+      <TypeFragment style={{ color: '#3168b1' }}>
+        <Typewriter
+            options={{
+              strings: ['code', 'design', 'make', 'create', 'develop'],
+              autoStart: true,
+              loop: true,
+              pauseFor: 2500,
+            }}
+          />
+      </TypeFragment>
+      <TypeFragment>​ things</TypeFragment>
     </StyledSubtitle>
   );
   const four = () => (
