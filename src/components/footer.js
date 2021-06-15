@@ -100,7 +100,7 @@ const Footer = () => {
       <StyledMetadata tabindex="-1">
         <div>
           <a href="https://aingson.xyz/">aingson.xyz</a> is made by{' '}
-          <a href="mailto:aings1@umbc.edu">Andrew</a> with{' '}
+          <a href="mailto:aings1@umbc.edu">Andrew(me!)</a> with{' '}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>. See it on{' '}
           <a href="https://github.com/ADMARIl/aingson.xyz">github</a>. &copy;{' '}
           {new Date().getFullYear()}
