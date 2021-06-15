@@ -1,6 +1,7 @@
 import { css } from 'styled-components';
 import theme from './theme';
 import media from './media';
+
 const { colors, fontSizes, fonts } = theme;
 
 const mixins = {
@@ -93,9 +94,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.lightSlate2};
-    background-color: ${colors.darkGrey};
-    border: 1px solid ${colors.green};
+    color: ${colors.darkGrey};
+    background-color: ${colors.lightSlate2};
+    border: 2px solid ${colors.mapDarkBlue};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
