@@ -29,7 +29,7 @@ const HelloContainerRed = styled(Section)`
   padding: 20px 50px 20px 20px !important;
 `;
 const HelloContainerwhite = styled(Section)`
-  background-color: ${colors.white};
+  background-color: ${colors.lightSlate2};
   margin: 0 0 10px -9px;
   padding: 20px 50px 5px 10px;
   ${media.desktop`
@@ -120,10 +120,10 @@ const Hero = ({ data }) => {
       <TypeFragment style={{ color: '#3168b1' }}>
         <Typewriter
             options={{
-              strings: ['code', 'design', 'make', 'create', 'develop'],
+              strings: ['code', 'make', 'create', 'develop', 'program', 'build'],
               autoStart: true,
               loop: true,
-              pauseFor: 2500,
+              pauseFor: 3500,
             }}
           />
       </TypeFragment>

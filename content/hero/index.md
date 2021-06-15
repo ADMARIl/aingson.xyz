@@ -7,4 +7,4 @@ contactText: 'Say Hello!'
 avatar: './AndrewHeadshot2.jpg'
 ---
 
-I'm a recent graduate of the University of Maryland, Baltimore County, where I majored in Computer Science with a minor in Psychology. Now, I'm working in the field of software development.
+I'm a recent graduate of the University of Maryland, Baltimore County, where I majored in Computer Science with a minor in Psychology. Now, I'm a Baltimore-based software engineer.
