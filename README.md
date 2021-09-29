@@ -65,3 +65,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+Note the following depedancy specific liscenses:
+
+* [potrace](https://github.com/tooolbox/node-potrace/blob/HEAD/LICENSE) is liscensed under GNU General Public License version 2
+* [scrollreveal](https://github.com/jlmakes/scrollreveal#license) is liscensed under GNU General Public License 3.0
+
